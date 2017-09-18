@@ -7,7 +7,7 @@ git clone "repository網址"    將github 上的repository 下載下來
 接著進入該 clone 的文件夾下
 
 git remote add origin "repository 網址"    連結遠端的 git 庫
-git add "example.txt"
+git add example.txt
 git commit -m "我是註解"
 
 git push -u origin master   提交到遠端,
