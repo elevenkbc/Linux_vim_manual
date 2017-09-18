@@ -1,0 +1,28 @@
+自己整理的 git 基礎操作 by elevenkbc
+
+
+
+sudo apt -get install git     安裝git
+
+安裝完成後,需要輸入使用者名稱與email
+
+git config --global user.name "Your Name"
+git config --global user.email "email@example.com"
+
+
+創見版本庫 (repository)
+在創立的資料夾中路徑中 輸入  git init
+
+
+git add example.txt      告訴 git 我們將 example.txt 加入repository
+git commit -m "這裡請輸入註解"   告訴 git 將  example 加到 repsitory '建立回覆點' 並且加入註解
+
+git status      掌握repository 當前狀態,是否有已經變更的檔案,尚未git commit
+git diff example.txt  確認 example.txt 有怎樣的修改
+
+git log   顯示由最新到最舊的 commit 紀錄,以便確定我們要退回到那一個版本,按q離開 git log
+
+git reset --hard HEAD^  將HEAD  指標指向上一個commit 版本
+git reset --hard HEAD^^        上兩個版本
+git reset --hard HEAD 版本號   將HEAD 指標指向  版本號 紀錄的版本
+git reflog   搜尋git commit 歷史紀錄 , 用來尋找版本號     
