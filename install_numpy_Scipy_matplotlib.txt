@@ -1,0 +1,6 @@
+sudo apt-get install python-numpy   不明原因,安裝成功卻無法 import numpy
+
+sudo apt-get python-pip  先安裝 python-pip 後在用 pip 安裝 numpy  成功
+
+sudo pip intall nupmy
+
