@@ -1,0 +1,26 @@
+virtualenv 可以建立獨立虛擬環境。
+因為python的套件很多,套件之間可能有衝突產生,故若能夠在獨立虛擬環境中開發python程式
+，可以降低各個環境中的套件數量,也降低可能產生的套件衝突。
+
+安裝
+sudo apt-get install python-virtualenv
+
+建立虛擬環境
+virtualenv test      建立一個名稱為test的虛擬virtualenv環境
+
+在指定版本的python之下，建立名稱為 test 的virtualenv虛擬環境。
+virtualenv test --python=python3.2
+
+開啟已建立的虛擬環境 test
+source test/bin/activate
+
+
+
+安裝yolk  yolk可以觀察，python中所安裝的套件
+
+easy_install yolk
+yolk -a
+
+deactivate  離開當前的virtualenv 虛擬環境
+
+
