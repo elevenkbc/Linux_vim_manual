@@ -15,6 +15,7 @@ git config --global user.email "email@example.com"
 
 
 git add example.txt      告訴 git 我們將 example.txt 加入repository
+git rm example.txt       告訴 git 我們將 example.txt 從repository 移除
 git commit -m "這裡請輸入註解"   告訴 git 將  example 加到 repsitory '建立回覆點' 並且加入註解
 
 git status      掌握repository 當前狀態,是否有已經變更的檔案,尚未git commit
