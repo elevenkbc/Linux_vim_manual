@@ -1,9 +1,0 @@
-將終端機打開 Ctrl + Alt + T 
-
-sudo apt-get install g++ build-essential   安裝g++ 編譯器
-
-g++ /home/......../example.cpp -o /home/......../example.out -Wall
-執行以上命令後,若g++編譯成功,會在指定路徑下產生能被執行的檔案.out檔
-
-接著移動到 .out檔案所在的資料夾
-./example.out      就會跑出程式結果
