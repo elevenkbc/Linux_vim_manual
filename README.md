@@ -4,25 +4,25 @@
 
 顯示當前所在目前路徑下的所有的檔案或資料夾
 
-``` sh
+``` shell
 ls
 ```
 
 列出目前路徑下的所有檔案與資料夾的詳細資訊，時間、容量等等
 
-``` sh
+``` shell
 ls -l
 ```
 
 清除當前所有的command 紀錄
 
-``` sh
+``` shell
 clear
 ```
 
 關閉Terminal 
 
-``` sh
+``` shell
 exit
 ```
 
@@ -34,19 +34,19 @@ cd
 
 移動到另一資料夾
 
-``` sh
+``` shell
 cd /要移動到的資料夾
 ```
 
 移動到目前目錄的上一層
 
-``` sh
+``` shell
 cd ..
 ```
 
 移動到根目錄
 
-``` sh
+``` shell
 cd /
 ```
 
@@ -58,35 +58,9 @@ cd ~
 
 列出目前所在的目錄
 
-``` sh
+``` shell
 pwd
 ```
-
-
-
-**在LInux上安裝Python 科學計算套件的順序**
-
-python-numpy -> python-scipy -> python-matplotlib
-
-第一步
-
-```shell
-sudo apt-get install python-numpy
-```
-
-第二步
-
-```shell
-sudo apt-get install python-scipy
-```
-
-第三步
-
-```shell
-sudo apt-get install python-matplotlib
-```
-
-
 
 **Vim 指令教學 **
 
