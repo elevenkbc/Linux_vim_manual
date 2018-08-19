@@ -126,6 +126,6 @@ vim 總共有三種模式
 
 3. 接著移動到 example.out 的資料夾路徑下，輸入以下語法來觀察程式結果
 
-``` shell
-./example.out
-```
+   ```shell
+   ./example.out
+   ```
