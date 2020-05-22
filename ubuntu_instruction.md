@@ -123,8 +123,6 @@ uname -a
 
 
 
-1. 
-
 **在Ubuntu 上編譯 C++ 程式的方法**
 
 使用快捷鍵 `Ctrl` + `Alt` + `T` 來開啟 Terminal

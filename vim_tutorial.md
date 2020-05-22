@@ -1,45 +1,52 @@
-**Vim 指令教學 **
+## **Vim 指令教學 **
 
-vim 總共有三種模式
+```shell
+sudo apt-get install vim
+```
 
-1. 命令模式(常規模式，一進入vim預設就在命令模式)
 
-   i  在游標處插入內容
 
-   o 在當前行的下一行插入內容
+**Vim** 總共有三種模式
 
-   dd 刪除目前所在的整行內容
+* **command mode** (常規模式，一進入vim預設就在命令模式)
 
-   yy 複製當前行的內容到緩衝區
+  輸入指令 vim test.txt 後就直接進入這個模式
 
-   n+yy 複製從游標處開始n行的內容到緩衝區
+  i  在游標處插入內容
 
-   p 將緩衝區的內容貼到游標處
+  o 在當前行的下一行插入內容
 
-   / 尋找關鍵字，n鍵可找出下一個關鍵字
+  dd 刪除目前所在的整行內容
 
-   : 進入EX模式
+  yy 複製當前行的內容到緩衝區
 
-2. 插入模式(編輯內容)
+  n+yy 複製從游標處開始n行的內容到緩衝區
 
-   就像word一樣，隨意編輯內容，所見就是所得
+  p 將緩衝區的內容貼到游標處
 
-   esc 返回命令模式
+  / 尋找關鍵字，n鍵可找出下一個關鍵字
 
-3. EX模式(存檔、離開等等)
+  : 進入EX模式
 
-   :w 保存當前的修改
+* **insert mode** (編輯模式)
 
-   :w + example.txt  將當前的修改另存為 example.txt
+  就像word一樣，隨意編輯內容，所見就是所得
 
-   :q 退出vim，如果尚未保存vim會提示您需要保存
+  esc 返回 command mode
 
-   :q!  不保存直接退出
+* **command-line mode** (存檔、離開等等)
 
-   :sh 回到termintal
+  :w 保存當前的修改
 
-   :!  執行系統命令，在termintal 上執行單行的shell指令，輸入ctril+d 可回到vim
+  :w + example.txt  將當前的修改另存為 example.txt
 
-   : set number 顯示行號(coding 好用)
+  :q 退出vim，如果尚未保存vim會提示您需要保存
 
-   
+  :q!  不保存直接退出
+
+  :sh 回到termintal
+
+  :!  執行系統命令，在termintal 上執行單行的shell指令，輸入ctril+d 可回到vim
+
+  : set number 顯示行號(coding 好用)
+
