@@ -26,3 +26,24 @@ sh test.sh
 bash test.sh
 ```
 
+### 3. 使用 . 來執行
+
+這種方式執行 .sh檔案，需要先新增可執行的許可權，ls 觀看檔名變成綠色(可執行)
+
+```shell
+chmod +x test.sh
+```
+
+取消可執行權限
+
+```shell
+chmod -x test.sh
+```
+
+### 4. 使用 source 執行 (python 虛擬環境常用)
+
+使用 source 指令也能夠執行 .sh檔案
+
+```shell
+source test.sh
+```
